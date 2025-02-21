@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="MKT_CordovaPlugin" version="0.0.1">
+    <name>MKT_CordovaPlugin</name>
+    <description>A bullshit plugin to receive push message</description>
+    <license>MIT</license>
+    <keywords>cordova,android,toast,message,alert</keywords>
+    <repo>https://github.com/Zilly366/MKT_CordovaPlugin.git</repo>
+    
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <js-module src="www/mktcordovaplugin.js" name="mktcordovaplugin">
+        <clobbers target="window.plugins.mktcordovaplugin" />
+    </js-module>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="MKT_CordovaPlugin">
+                <param name="android-package" value="com.zilly.mktcordovaplugin"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/MKT_CordovaPlugin.java" target-dir="src/com/mktcordovaplugin/cordova/plugin" />
+    </platform>
+</plugin>
