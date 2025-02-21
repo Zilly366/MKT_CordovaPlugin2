@@ -4,8 +4,20 @@
     <description>Sample Apache Cordova App</description>
     <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
         Apache Cordova Team
-    </author>
-    <content src="index.html" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
+    
+  <content src="index.html" />
+  <access origin="*" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+  <allow-intent href="geo:*" />
+  <allow-intent href="market:*" />
+  <preference name="loglevel" value="DEBUG" />
+  <preference name="com.salesforce.marketingcloud.app_id" value="7256466d-e795-43cb-b463-c52eb558d3a7" />
+  <preference name="com.salesforce.marketingcloud.access_token" value="OhMSswpXwIX3hbTa3srzVfJ6" />
+  <preference name="com.salesforce.marketingcloud.sender_id" value="534005425" />
+  <preference name="com.salesforce.marketingcloud.tenant_specific_endpoint" value="https://mcjlpshq3r1zwdlw0-6n2l7dqksq.device.marketingcloudapis.com/" />
+  <preference name="com.salesforce.marketingcloud.notification_small_icon" value="ic_notification" />
 </widget>

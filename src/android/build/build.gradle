@@ -1,0 +1,24 @@
+buildscript {
+  repositories {
+    jcenter()
+    google()
+  }
+  dependencies {
+    classpath 'com.android.tools.build:gradle:3.4.3'
+    classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20'
+    implementation 'com.salesforce.marketingcloud:marketingcloudsdk:{currentVersion}'
+  }
+  
+}
+
+allprojects {
+  repositories {
+    jcenter()
+    google()
+    maven { url "https://salesforce-marketingcloud.github.io/MarketingCloudSDK-Android/repository" }
+  }
+}
+
+task clean(type: Delete) {
+  delete rootProject.buildDir
+}
