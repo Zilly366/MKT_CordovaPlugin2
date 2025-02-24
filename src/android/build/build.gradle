@@ -7,6 +7,8 @@ buildscript {
     classpath 'com.android.tools.build:gradle:8.11.1'
     classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.10'
     implementation 'com.salesforce.marketingcloud:marketingcloudsdk:8.2.+'
+    implementation 'com.salesforce.marketingcloud:sfmcsdk:1.0.5'
+
   }
   
 }
@@ -16,6 +18,7 @@ allprojects {
     jcenter()
     google()
     maven { url "https://salesforce-marketingcloud.github.io/MarketingCloudSDK-Android/repository" }
+    maven { url "https://mvnrepository.com/artifact/com.salesforce.marketingcloud/sfmcsdk"}
   }
 }
 

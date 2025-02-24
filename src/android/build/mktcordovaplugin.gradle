@@ -14,8 +14,10 @@ repositories {
     maven { url "https://maven.google.com" }
     maven { url "https://salesforce-marketingcloud.github.io/MarketingCloudSDK-Android/repository" }
     mavenLocal()
+    maven { url "https://mvnrepository.com/artifact/com.salesforce.marketingcloud/sfmcsdk"}
 }
 
 dependencies {
     implementation("com.salesforce.marketingcloud:marketingcloudsdk:8.2.+")
+    implementation 'com.salesforce.marketingcloud:sfmcsdk:1.0.5'
 }
