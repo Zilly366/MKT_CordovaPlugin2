@@ -24,6 +24,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 package android.build;
+import com.salesforce.marketingcloud.cordova;
 
 //import static com.salesforce.marketingcloud.cordova.MCCordovaPlugin.TAG;
 import static MKT_CordovaPlugin.TAG;
