@@ -32,7 +32,7 @@
 var exec = require('cordova/exec');
 var argsCheck = require('cordova/argscheck');
 
-var PLUGIN_NAME = 'MCCordovaPlugin';
+var PLUGIN_NAME = 'MKT_CordovaPlugin';
 
 var onNotificationOpened;
 var onUrlAction;
@@ -63,9 +63,9 @@ function _exec(successCallback, errorCallback, methodName, args) {
 }
 
 /**
- * @exports MCCordovaPlugin
+ * @exports MKT_CordovaPlugin
  */
-var MCCordovaPlugin = {
+var MKT_CordovaPlugin = {
     
     isPushEnabled: function(successCallback, errorCallback = undefined) {
         argsCheck.checkArgs('fF', `${PLUGIN_NAME}.isPushEnabled`, arguments);
@@ -192,4 +192,4 @@ var MCCordovaPlugin = {
     },
 };
 
-module.exports = MCCordovaPlugin;
+module.exports = MKT_CordovaPlugin;

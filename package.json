@@ -23,7 +23,7 @@
   "engines": [
     {
       "name": "cordova",
-      "version": ">=3.0.0"
+      "version": ">=9.0.0"
     }
   ],
   "author": "Stanley Idesis <stan.idesis@gmail.com>",

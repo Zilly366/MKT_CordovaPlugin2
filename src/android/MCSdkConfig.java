@@ -25,8 +25,8 @@
  */
 package android.build;
 
-import static com.salesforce.marketingcloud.cordova.MCCordovaPlugin.TAG;
-
+//import static com.salesforce.marketingcloud.cordova.MCCordovaPlugin.TAG;
+import static MKT_CordovaPlugin.TAG;
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;

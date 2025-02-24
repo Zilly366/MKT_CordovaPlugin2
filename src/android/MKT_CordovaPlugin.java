@@ -32,8 +32,8 @@ import com.salesforce.marketingcloud.sfmcsdk.modules.push.PushModuleInterface;
 import com.salesforce.marketingcloud.sfmcsdk.modules.push.PushModuleReadyListener;
 import com.salesforce.marketingcloud.sfmcsdk.modules.ModuleInterface;
 
-public class MCCordovaPlugin extends CordovaPlugin implements UrlHandler {
-    static final String TAG = "~!MCCordova";
+public class MKT_CordovaPlugin extends CordovaPlugin implements UrlHandler {
+    static final String TAG = "~!MKT_CordovaPlugin";
     private static final String EXTRA_MESSAGE =
         "com.salesforce.marketingcloud.notifications.EXTRA_MESSAGE";
     private CallbackContext eventsChannel = null;
