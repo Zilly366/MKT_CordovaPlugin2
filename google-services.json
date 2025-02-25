@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "457038820172",
+    "firebase_url": "https://clubesupernosso.firebaseio.com",
+    "project_id": "clubesupernosso",
+    "storage_bucket": "clubesupernosso.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457038820172:android:1398a8bbd27feeeb5995e9",
+        "android_client_info": {
+          "package_name": "br.com.supernosso.mali.ClubeSupernosso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457038820172-md5tj0h8kg3uol0mtp3j8ff5g7b9ap7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA0NsrU44z8MvrcflmLTlCByZsE6dB7ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457038820172-md5tj0h8kg3uol0mtp3j8ff5g7b9ap7q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "457038820172-5jqca96dhmlhf4ob16d7sd6r1js43oh3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.supernosso.mauricio.ClubeSupernosso",
+                "app_store_id": "1370405288"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457038820172:android:490af530c15540b15995e9",
+        "android_client_info": {
+          "package_name": "br.com.supernosso.martinica.ClubeSupernosso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457038820172-md5tj0h8kg3uol0mtp3j8ff5g7b9ap7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA0NsrU44z8MvrcflmLTlCByZsE6dB7ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457038820172-md5tj0h8kg3uol0mtp3j8ff5g7b9ap7q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "457038820172-5jqca96dhmlhf4ob16d7sd6r1js43oh3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.supernosso.mauricio.ClubeSupernosso",
+                "app_store_id": "1370405288"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457038820172:android:b995f53b5d4951d2",
+        "android_client_info": {
+          "package_name": "br.com.supernosso.mauricio.ClubeSupernosso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457038820172-md5tj0h8kg3uol0mtp3j8ff5g7b9ap7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA0NsrU44z8MvrcflmLTlCByZsE6dB7ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457038820172-md5tj0h8kg3uol0mtp3j8ff5g7b9ap7q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "457038820172-5jqca96dhmlhf4ob16d7sd6r1js43oh3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.supernosso.mauricio.ClubeSupernosso",
+                "app_store_id": "1370405288"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
