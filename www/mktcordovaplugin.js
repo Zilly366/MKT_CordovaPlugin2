@@ -32,7 +32,7 @@
 var exec = require('cordova/exec');
 var argsCheck = require('cordova/argscheck');
 
-var PLUGIN_NAME = 'MKT_CordovaPlugin';
+var PLUGIN_NAME = 'mktcordovaplugin';
 
 var onNotificationOpened;
 var onUrlAction;
