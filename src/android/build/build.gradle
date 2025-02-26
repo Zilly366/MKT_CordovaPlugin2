@@ -8,9 +8,17 @@ buildscript {
     classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.10'
     implementation 'com.salesforce.marketingcloud:marketingcloudsdk:8.2.+'
     implementation 'com.salesforce.marketingcloud:sfmcsdk:1.0.5'
+    implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
+    implementation("com.google.firebase:firebase-analytics")
 
-  }
-  
+  } 
+}
+plugins {
+  id 'com.android.application' version '7.3.0' apply false
+  // ...
+
+  // Add the dependency for the Google services Gradle plugin
+  id 'com.google.gms.google-services' version '4.4.2' apply false
 }
 
 allprojects {

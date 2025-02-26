@@ -66,6 +66,9 @@ function _exec(successCallback, errorCallback, methodName, args) {
  * @exports MKT_CordovaPlugin
  */
 var MKT_CordovaPlugin = {
+    initialize: function(){
+        _exec(successCallback,errorCallback,'initialize');
+    },
     
     isPushEnabled: function(successCallback, errorCallback = undefined) {
         argsCheck.checkArgs('fF', `${PLUGIN_NAME}.isPushEnabled`, arguments);
@@ -87,12 +90,9 @@ var MKT_CordovaPlugin = {
         _exec(successCallback, errorCallback, 'getSystemToken');
     },
     
-    /*getDeviceId: function(successCallback, errorCallback) {
+    getDeviceId: function(successCallback, errorCallback) {
         argsCheck.checkArgs('fF', `${PLUGIN_NAME}.getDeviceId`, arguments);
         _exec(successCallback, errorCallback, 'getDeviceId');
-    },*/
-    getDeviceId: function() {
-        return "manganId";
     },
     
     getAttributes: function(successCallback, errorCallback) {
