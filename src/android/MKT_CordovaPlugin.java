@@ -61,7 +61,7 @@ public class MKT_CordovaPlugin extends CordovaPlugin implements UrlHandler {
         return null;
     }
 
-    /*@Override
+    @Override
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
         MCSdkListener.INSTANCE.urlHandler = this;
 
@@ -69,19 +69,7 @@ public class MKT_CordovaPlugin extends CordovaPlugin implements UrlHandler {
         if (intent != null && intent.hasExtra(EXTRA_MESSAGE)) {
             handleNotificationMessage(NotificationManager.extractMessage(intent));
         }
-    }*/
-    /*private ActionHandler initialize(){
-        initialize(CordovaInterface cordova, CordovaWebView webView) {
-            MCSdkListener.INSTANCE.urlHandler = this;
-    
-            Intent intent = cordova.getActivity().getIntent();
-            if (intent != null && intent.hasExtra(EXTRA_MESSAGE)) {
-                handleNotificationMessage(NotificationManager.extractMessage(intent));
-            }
-        }
-
-    }*/
-    
+    }
 
     @Override
     public void onNewIntent(Intent intent) {
@@ -240,8 +228,6 @@ public class MKT_CordovaPlugin extends CordovaPlugin implements UrlHandler {
 
     private ActionHandler getActionHandler(String action) {
         switch (action) {
-            case "initialize":
-                return initialize();
             case "getSystemToken":
                 return getSystemToken();
             case "logSdkState":
@@ -283,28 +269,6 @@ public class MKT_CordovaPlugin extends CordovaPlugin implements UrlHandler {
             default:
                 return null;
         }
-    }
-
-    private ActionHandler initialize(){
-        return initialize();
-        /*@Override
-        public void initialize(CordovaInterface cordova, CordovaWebView webView) {
-            MCSdkListener.INSTANCE.urlHandler = this;
-    
-            Intent intent = cordova.getActivity().getIntent();
-            if (intent != null && intent.hasExtra(EXTRA_MESSAGE)) {
-                handleNotificationMessage(NotificationManager.extractMessage(intent));
-            }
-        }*/
-        /*{
-            MCSdkListener.INSTANCE.urlHandler = this;
-    
-            Intent intent = cordova.getActivity().getIntent();
-            if (intent != null && intent.hasExtra(EXTRA_MESSAGE)) {
-                handleNotificationMessage(NotificationManager.extractMessage(intent));
-            }
-        }*/
-
     }
 
     private ActionHandler getSystemToken() {
