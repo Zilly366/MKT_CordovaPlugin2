@@ -89,10 +89,11 @@ var MKT_CordovaPlugin = {
         _exec(successCallback, errorCallback, 'getSystemToken');
     },
     
-    getDeviceId: function(successCallback, errorCallback) {
+    getDeviceId: function() {
         argsCheck.checkArgs('fF', `${PLUGIN_NAME}.getDeviceId`, arguments);
         _exec(successCallback, errorCallback, 'getDeviceId');
     },
+    
     
     getAttributes: function(successCallback, errorCallback) {
         argsCheck.checkArgs('fF', `${PLUGIN_NAME}.getAttributes`, arguments);
