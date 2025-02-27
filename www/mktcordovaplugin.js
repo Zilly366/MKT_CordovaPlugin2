@@ -90,7 +90,7 @@ var MKT_CordovaPlugin = {
     },
     
     getDeviceId: function() {
-        argsCheck.checkArgs('fF', `${PLUGIN_NAME}.getDeviceId`, arguments);
+        //argsCheck.checkArgs('fF', `${PLUGIN_NAME}.getDeviceId`, arguments);
         _exec(successCallback, errorCallback, 'getDeviceId');
     },
     
