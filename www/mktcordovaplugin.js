@@ -66,7 +66,9 @@ function _exec(successCallback, errorCallback, methodName, args) {
  * @exports MKT_CordovaPlugin
  */
 var MKT_CordovaPlugin = {
-    
+    testMessage : function(){
+        return "Função de teste";
+    },
     isPushEnabled: function(successCallback, errorCallback = undefined) {
         argsCheck.checkArgs('fF', `${PLUGIN_NAME}.isPushEnabled`, arguments);
         _exec(successCallback, errorCallback, 'isPushEnabled');
