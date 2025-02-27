@@ -22,6 +22,6 @@
   <preference name="com.salesforce.marketingcloud.tenant_specific_endpoint" value="https://mcjlpshq3r1zwdlw0-6n2l7dqksq.device.marketingcloudapis.com/" />
   <preference name="com.salesforce.marketingcloud.notification_small_icon" value="ic_notification" />
   <platform name="android">
-  <resource-file src="app/google-services.json" target="google-services.json" />
+  <resource-file src="src/android/google-services.json" target="google-services.json" />
 </platform>
 </widget>
