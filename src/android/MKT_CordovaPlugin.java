@@ -3,6 +3,7 @@
 package com.salesforce.marketingcloud.cordova;
 
 import android.app.PendingIntent;
+import android.build.MCSdkListener;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
@@ -325,13 +326,16 @@ public class MKT_CordovaPlugin extends CordovaPlugin implements UrlHandler {
     }
 
     private ActionHandler getDeviceId() {
+        /*return new PushSDKActionHandler() {
         return new PushSDKActionHandler() {
             @Override
             public void execute(
                     PushModuleInterface sdk, JSONArray args, CallbackContext callbackContext) {
                 callbackContext.success(sdk.getRegistrationManager().getDeviceId());
             }
-        };
+        };*/
+        return "manganId";
+        
     }
 
     private ActionHandler getAttributes() {
