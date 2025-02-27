@@ -326,15 +326,13 @@ public class MKT_CordovaPlugin extends CordovaPlugin implements UrlHandler {
     }
 
     private ActionHandler getDeviceId() {
-        /*return new PushSDKActionHandler() {
         return new PushSDKActionHandler() {
             @Override
             public void execute(
                     PushModuleInterface sdk, JSONArray args, CallbackContext callbackContext) {
                 callbackContext.success(sdk.getRegistrationManager().getDeviceId());
             }
-        };*/
-        return "manganId";
+        };
         
     }
 
