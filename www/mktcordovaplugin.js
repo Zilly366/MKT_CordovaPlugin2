@@ -62,6 +62,13 @@ function _exec(successCallback, errorCallback, methodName, args) {
     exec(successCallback, errorCallback, PLUGIN_NAME, methodName, args);
 }
 
+var AuthTokenPlugin = {
+    getAccessToken: function(serviceAccountJson, successCallback, errorCallback) {
+        exec(successCallback, errorCallback, "AuthTokenPlugin", "getAccessToken", [serviceAccountJson]);
+    }
+};
+
+module.exports = AuthTokenPlugin;
 /**
  * @exports MKT_CordovaPlugin
  */
