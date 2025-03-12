@@ -24,7 +24,8 @@ public class AuthTokenPlugin extends CordovaPlugin {
     }
 
     private void getAccessToken(String jsonCredentials, CallbackContext callbackContext) {
-        try {
+        callbackContext.success("token teste");
+        /*try {
             // Converte a string JSON para um InputStream
             InputStream serviceAccountStream = new ByteArrayInputStream(jsonCredentials.getBytes(StandardCharsets.UTF_8));
 
@@ -39,6 +40,6 @@ public class AuthTokenPlugin extends CordovaPlugin {
             callbackContext.success(token);
         } catch (Exception e) {
             callbackContext.error("Erro ao obter o Access Token: " + e.getMessage());
-        }
+        }*/
     }
 }
